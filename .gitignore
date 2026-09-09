@@ -1,0 +1,12 @@
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+.idea/
+.vscode/
+
+# Gemini / Antigravity local logs & artifacts
+.gemini/
+.agents/scratch/
+*.log
