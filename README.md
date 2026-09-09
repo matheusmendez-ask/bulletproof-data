@@ -30,13 +30,13 @@ A skill **`bulletproof-data`** ensina o agente a agir como um **Staff Data Engin
 
 #### No Windows (PowerShell):
 ```powershell
-irm https://raw.githubusercontent.com/<seu-usuario>/bulletproof-data/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/matheusmendez-ask/bulletproof-data/main/install.ps1 | iex
 ```
 *(Ou clone este repositório e execute `./install.ps1` no PowerShell)*
 
 #### No Linux / macOS (Bash):
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<seu-usuario>/bulletproof-data/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/matheusmendez-ask/bulletproof-data/main/install.sh | bash
 ```
 *(Ou clone este repositório e execute `./install.sh` no terminal)*
 

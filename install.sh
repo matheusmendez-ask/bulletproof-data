@@ -20,7 +20,7 @@ if [ -n "$SCRIPT_DIR" ] && [ -d "$SCRIPT_DIR/bulletproof-data" ]; then
 else
     echo "[1/2] Baixando a skill do repositório..."
     TMP_DIR=$(mktemp -d)
-    REPO_URL="https://github.com/matheus/bulletproof-data/archive/refs/heads/main.tar.gz"
+    REPO_URL="https://github.com/matheusmendez-ask/bulletproof-data/archive/refs/heads/main.tar.gz"
     
     curl -fsSL "$REPO_URL" | tar -xz -C "$TMP_DIR"
     EXTRACTED_DIR=$(find "$TMP_DIR" -mindepth 1 -maxdepth 1 -type d | head -n 1)

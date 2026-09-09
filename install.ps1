@@ -23,7 +23,7 @@ if ($ScriptDir -and (Test-Path -Path $LocalSkillDir)) {
 } else {
     # Download direto do repositório
     Write-Host "[1/2] Baixando a skill do GitHub..." -ForegroundColor Yellow
-    $RepoZipUrl = "https://github.com/matheus/bulletproof-data/archive/refs/heads/main.zip"
+    $RepoZipUrl = "https://github.com/matheusmendez-ask/bulletproof-data/archive/refs/heads/main.zip"
     $TempZip = Join-Path $env:TEMP "bulletproof-data.zip"
     $TempExtract = Join-Path $env:TEMP "bulletproof-data-extract"
 
